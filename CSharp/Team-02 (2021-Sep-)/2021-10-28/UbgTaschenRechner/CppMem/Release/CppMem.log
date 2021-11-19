@@ -1,0 +1,7 @@
+﻿  CppMem.cpp
+F:\Daten\00 Schulungsunterlagen\CodersBay\CSharp\Team-02 (2021-Sep-)\2021-10-28\UbgTaschenRechner\CppMem\CppMem.cpp(20,10): warning C4309: "=": Verkürzung eines konstanten Wertes
+  Code wird generiert.
+  Previous IPDB not found, fall back to full compilation.
+  All 10 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Codegenerierung ist abgeschlossen.
+  CppMem.vcxproj -> F:\Daten\00 Schulungsunterlagen\CodersBay\CSharp\Team-02 (2021-Sep-)\2021-10-28\UbgTaschenRechner\Release\CppMem.exe

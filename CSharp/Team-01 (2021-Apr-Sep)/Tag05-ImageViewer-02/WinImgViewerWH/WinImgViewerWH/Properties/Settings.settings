@@ -1,0 +1,12 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="WinImgViewerWH.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="LastFolder" Type="System.String" Scope="User">
+      <Value Profile="(Default)">F:\Daten\00 Schulungsunterlagen\CodersBay\Icons</Value>
+    </Setting>
+    <Setting Name="FrmMainLocation" Type="System.Drawing.Point" Scope="User">
+      <Value Profile="(Default)">10, 20</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

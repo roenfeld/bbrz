@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfPerson xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Person>
+    <FirstName>Attila</FirstName>
+    <LastName>Hazafy</LastName>
+    <BirthDay>1981-05-06T00:00:00</BirthDay>
+    <Info>BBRZ</Info>
+  </Person>
+  <Person>
+    <FirstName>Kevin</FirstName>
+    <LastName>Kaltenegger</LastName>
+    <BirthDay>1995-03-09T00:00:00</BirthDay>
+    <Info>TN</Info>
+  </Person>
+  <Person>
+    <FirstName>Walter</FirstName>
+    <LastName>Rönfeld</LastName>
+    <BirthDay>1967-05-27T00:00:00</BirthDay>
+    <Info>C#, Java</Info>
+  </Person>
+</ArrayOfPerson>
