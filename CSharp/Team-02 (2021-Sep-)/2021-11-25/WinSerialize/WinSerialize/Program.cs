@@ -16,7 +16,7 @@ namespace WinSerialize
     {
       Application.EnableVisualStyles();
       Application.SetCompatibleTextRenderingDefault(false);
-      Application.Run(new FrmPerson());
+      Application.Run(new FrmMain());
     }
   }
 }

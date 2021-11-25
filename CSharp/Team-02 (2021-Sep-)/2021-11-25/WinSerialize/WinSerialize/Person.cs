@@ -8,6 +8,8 @@ namespace WinSerialize
 {
   public class Person
   {
+    #region Props
+
     public string FirstName { get; set; }
 
     public string LastName { get; set; }
@@ -23,6 +25,19 @@ namespace WinSerialize
     public string Password { get; set; }
 
 
+    public string FullName { get { return $"{FirstName} {LastName}"; } }
+
+    #endregion
+
+
+    public override string ToString()
+    {
+      return $"{FullName} {BirthDay:ddd, yyyy-MM-dd}";
+    }
+
+
+    #region De-Serialize
+
     public static List<Person> Deserialize(string fileName)
     {
       var sr = new System.IO.StreamReader(fileName);
@@ -32,20 +47,21 @@ namespace WinSerialize
       var lst = tmp as List<Person>;
 
       sr.Close();
-
       return lst;
     }
 
 
     public static void Serialize(string fileName, List<Person> lst)
     {
-      var sw = new System.IO.StreamWriter(fileName);
+      var datei = new System.IO.StreamWriter(fileName);
 
       var ser = new System.Xml.Serialization.XmlSerializer(typeof(List<Person>));
-      ser.Serialize(sw, lst);
+      ser.Serialize(datei, lst);
 
-      sw.Close();
+      datei.Close();
     }
+
+    #endregion
 
   }
 }

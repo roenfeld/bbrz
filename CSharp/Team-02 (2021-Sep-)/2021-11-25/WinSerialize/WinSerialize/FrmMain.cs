@@ -75,7 +75,7 @@ namespace WinSerialize
 
     private void LoadData(string fileName)
     {
-      _persons = Person.Deserialize(fileName);
+      this._persons = Person.Deserialize(fileName);      
     }
 
 
@@ -96,7 +96,12 @@ namespace WinSerialize
 
     private void btnXmlDeSerialize_Click(object sender, EventArgs e)
     {
-      this.LoadData(this.DataFileName);
+      this._persons = Person.Deserialize(this.DataFileName);
+      
+      this.lbPersonen.DataSource = this._persons;
+      //this.lbPersonen.DisplayMember = "BirthDay";
+
+      this.dgvPersonen.DataSource = this._persons;
     }
 
     private void mnuFileSave_Click(object sender, EventArgs e)
