@@ -75,24 +75,13 @@ namespace WinSerialize
 
     private void LoadData(string fileName)
     {
-      var sr = new System.IO.StreamReader(fileName);
-
-      var ser = new System.Xml.Serialization.XmlSerializer(typeof(List<Person>));
-      var tmp = ser.Deserialize(sr);
-      _persons = tmp as List<Person>;
-
-      sr.Close();
+      _persons = Person.Deserialize(fileName);
     }
 
 
     private void SaveData(string fileName)
     {
-      var sw = new System.IO.StreamWriter(fileName);
-
-      var ser = new System.Xml.Serialization.XmlSerializer(typeof(List<Person>));
-      ser.Serialize(sw, _persons);
-
-      sw.Close();
+      Person.Serialize(fileName, this._persons);
     }
 
 
@@ -102,7 +91,6 @@ namespace WinSerialize
       //var dirName = Application.StartupPath;
       //var dirName = Environment.GetFolderPath(Environment.SpecialFolder.CommonApplicationData);
       //var fileName = System.IO.Path.Combine(dirName, "Personen.xml");
-
       this.SaveData(this.DataFileName);
     }
 

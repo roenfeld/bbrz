@@ -23,7 +23,7 @@ namespace WinSerialize
     public string Password { get; set; }
 
 
-    public List<Person> LoadData(string fileName)
+    public static List<Person> Deserialize(string fileName)
     {
       var sr = new System.IO.StreamReader(fileName);
 
@@ -35,5 +35,17 @@ namespace WinSerialize
 
       return lst;
     }
+
+
+    public static void Serialize(string fileName, List<Person> lst)
+    {
+      var sw = new System.IO.StreamWriter(fileName);
+
+      var ser = new System.Xml.Serialization.XmlSerializer(typeof(List<Person>));
+      ser.Serialize(sw, lst);
+
+      sw.Close();
+    }
+
   }
 }

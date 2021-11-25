@@ -19,9 +19,7 @@ namespace WinSerialize
 
     private void btnLoadData_Click(object sender, EventArgs e)
     {
-      var f = new FrmMain();
-      f.LoadData();
-      var lst = f.Persons;
+      var lst = Person.Deserialize(@"C:\ProgramData\Personen.xml");
     }
 
   }
