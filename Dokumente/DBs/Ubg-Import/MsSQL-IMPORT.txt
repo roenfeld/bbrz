@@ -1,0 +1,5 @@
+-- datenbank auswählen/anklicken
+-- RMB/Contextmenü
+--		Tasks
+--				Import Flat File
+-- ...
