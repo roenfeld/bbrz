@@ -18,8 +18,12 @@ namespace WinSerPerson
     {
       InitializeComponent();
 
-      bsPerson.DataSource = new List<Person>();
-      this.LoadData();
+      //bsPerson.DataSource = new List<Person>();
+      var x = this.LoadData();
+      bsPerson.DataSource = x;
+
+      bsPerson.Position = 1;
+      bsPerson.MovePrevious();
     }
 
     private void SaveData()
@@ -31,18 +35,20 @@ namespace WinSerPerson
     }
 
 
-    private void LoadData()
+    private object LoadData()
     {
       var fileName = @"F:\Daten\00 Schulungsunterlagen\CodersBay\gitRepo\CSharp\01DATA\Personen.xml";
       fileName = FrmMain.XmlFileName;
       List<Person> lst = Person.ReadFromXmlFile(fileName);
 
-      bsPerson.DataSource = lst;
+      return lst;
     }
 
 
     private void btnSaveData_Click(object sender, EventArgs e)
     {
+      dgvPerson.EndEdit();
+      bsPerson.EndEdit();
       this.SaveData();
     }
 
@@ -50,5 +56,7 @@ namespace WinSerPerson
     {
       e.Cancel = true;
     }
+
+
   }
 }
