@@ -5,6 +5,10 @@ VisualStudioVersion = 17.0.31912.275
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinDataSet", "WinDataSet\WinDataSet.csproj", "{1C065575-9250-4606-9270-9B989A01AEE2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinDbCountries", "WinDbCountries\WinDbCountries.csproj", "{F9FBC3F5-7097-4F08-9319-0173B8254201}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFiles", "WinFiles\WinFiles.csproj", "{C5944859-C503-4783-9C30-68B85775161C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{1C065575-9250-4606-9270-9B989A01AEE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1C065575-9250-4606-9270-9B989A01AEE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1C065575-9250-4606-9270-9B989A01AEE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9FBC3F5-7097-4F08-9319-0173B8254201}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9FBC3F5-7097-4F08-9319-0173B8254201}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9FBC3F5-7097-4F08-9319-0173B8254201}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9FBC3F5-7097-4F08-9319-0173B8254201}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5944859-C503-4783-9C30-68B85775161C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5944859-C503-4783-9C30-68B85775161C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5944859-C503-4783-9C30-68B85775161C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5944859-C503-4783-9C30-68B85775161C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
