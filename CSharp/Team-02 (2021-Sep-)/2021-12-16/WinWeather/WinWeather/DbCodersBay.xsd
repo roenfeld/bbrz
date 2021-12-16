@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DbCodersBay" targetNamespace="http://tempuri.org/DbCodersBay.xsd" xmlns:mstns="http://tempuri.org/DbCodersBay.xsd" xmlns="http://tempuri.org/DbCodersBay.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DbCodersBay" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_UserDSName="DbCodersBay" msprop:Generator_DataSetName="DbCodersBay">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="WeatherData" msprop:Generator_RowEvHandlerName="WeatherDataRowChangeEventHandler" msprop:Generator_RowDeletedName="WeatherDataRowDeleted" msprop:Generator_RowDeletingName="WeatherDataRowDeleting" msprop:Generator_RowEvArgName="WeatherDataRowChangeEvent" msprop:Generator_TablePropName="WeatherData" msprop:Generator_RowChangedName="WeatherDataRowChanged" msprop:Generator_RowChangingName="WeatherDataRowChanging" msprop:Generator_TableClassName="WeatherDataDataTable" msprop:Generator_RowClassName="WeatherDataRow" msprop:Generator_TableVarName="tableWeatherData" msprop:Generator_UserTableName="WeatherData">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Id" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" msprop:Generator_ColumnPropNameInRow="Id" msprop:Generator_ColumnPropNameInTable="IdColumn" msprop:Generator_ColumnVarNameInTable="columnId" msprop:Generator_UserColumnName="Id" type="xs:int" />
+              <xs:element name="City" msprop:Generator_ColumnPropNameInTable="CityColumn" msprop:nullValue="_throw" msprop:Generator_ColumnPropNameInRow="City" msprop:Generator_UserColumnName="City" msprop:Generator_ColumnVarNameInTable="columnCity" type="xs:string" default="St. Was-I-Net" minOccurs="0" />
+              <xs:element name="Date" msprop:Generator_ColumnPropNameInRow="Date" msprop:Generator_ColumnPropNameInTable="DateColumn" msprop:Generator_ColumnVarNameInTable="columnDate" msprop:Generator_UserColumnName="Date" type="xs:dateTime" default="2000-01-01T00:00:00+01:00" minOccurs="0" />
+              <xs:element name="Temperature_C" msprop:Generator_ColumnPropNameInRow="Temperature_C" msprop:Generator_ColumnPropNameInTable="Temperature_CColumn" msprop:Generator_ColumnVarNameInTable="columnTemperature_C" msprop:Generator_UserColumnName="Temperature_C" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Temperature_F" msdata:ReadOnly="true" msdata:Expression="(Temperature_C * 9 / 5 ) + 32" msprop:Generator_ColumnPropNameInRow="Temperature_F" msprop:Generator_ColumnPropNameInTable="Temperature_FColumn" msprop:Generator_ColumnVarNameInTable="columnTemperature_F" msprop:Generator_UserColumnName="Temperature_F" type="xs:string" minOccurs="0" />
+              <xs:element name="Airpressure_mbar" msdata:Caption="Air Pressure" msprop:Generator_ColumnPropNameInRow="Airpressure_mbar" msprop:Generator_ColumnPropNameInTable="Airpressure_mbarColumn" msprop:Generator_ColumnVarNameInTable="columnAirpressure_mbar" msprop:Generator_UserColumnName="Airpressure_mbar" type="xs:int" default="1013" minOccurs="0" />
+              <xs:element name="Notes" msprop:Generator_ColumnPropNameInRow="Notes" msprop:Generator_ColumnPropNameInTable="NotesColumn" msprop:Generator_ColumnVarNameInTable="columnNotes" msprop:Generator_UserColumnName="Notes" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:WeatherData" />
+      <xs:field xpath="mstns:Id" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>
