@@ -13,9 +13,13 @@ namespace ConAdo
     static void Main(string[] args)
     {
       var cb = new SqlConnectionStringBuilder();
-      cb.DataSource = @"(local)\SQL2K17";
-      cb.InitialCatalog = "CodersBay";
-      cb.IntegratedSecurity = true;
+      //cb.DataSource = @"(local)\SQL2K17";
+      cb.UserID = "Coder";
+      cb.Password = "bbrz";
+      cb.DataSource = @"app.roenfeld.com\SQL2K16";
+      cb.InitialCatalog = "Codersbay";
+      
+      //cb.IntegratedSecurity = true;
       
       var con = new SqlConnection();
       con.ConnectionString = cb.ConnectionString;
@@ -31,9 +35,12 @@ namespace ConAdo
       adapter.SelectCommand = cmd;
 
       var ds = new DataSet();
-      adapter.Fill(ds);
+      adapter.Fill(ds, "employees");
 
       con.Close();
+
+      var dt = ds.Tables["employees"];
+      var recCount = dt.Rows.Count;
     }
 
 

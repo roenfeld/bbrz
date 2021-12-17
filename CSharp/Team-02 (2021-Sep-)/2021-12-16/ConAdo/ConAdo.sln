@@ -5,6 +5,10 @@ VisualStudioVersion = 17.0.32002.185
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConAdo", "ConAdo\ConAdo.csproj", "{5307D712-1C8B-47B8-8CAE-F7B5E3A8AEC6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinAdoTest", "WinAdoTest\WinAdoTest.csproj", "{8074F1DD-F652-4F71-9ED0-CFE7E44D1ACA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinAdoTest02", "WinAdoTest02\WinAdoTest02.csproj", "{81D81F0F-E256-49B1-9E5C-DB25A3C12331}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{5307D712-1C8B-47B8-8CAE-F7B5E3A8AEC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5307D712-1C8B-47B8-8CAE-F7B5E3A8AEC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5307D712-1C8B-47B8-8CAE-F7B5E3A8AEC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8074F1DD-F652-4F71-9ED0-CFE7E44D1ACA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8074F1DD-F652-4F71-9ED0-CFE7E44D1ACA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8074F1DD-F652-4F71-9ED0-CFE7E44D1ACA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8074F1DD-F652-4F71-9ED0-CFE7E44D1ACA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81D81F0F-E256-49B1-9E5C-DB25A3C12331}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81D81F0F-E256-49B1-9E5C-DB25A3C12331}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81D81F0F-E256-49B1-9E5C-DB25A3C12331}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81D81F0F-E256-49B1-9E5C-DB25A3C12331}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
