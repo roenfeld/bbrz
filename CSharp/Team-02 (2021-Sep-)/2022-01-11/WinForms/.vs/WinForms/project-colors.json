@@ -1,0 +1,31 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "03202507-002e-49fd-97a4-8bda66ad6ba8": {
+      "ProjectGuid": "03202507-002e-49fd-97a4-8bda66ad6ba8",
+      "DisplayName": "WinForms",
+      "ColorIndex": 0
+    },
+    "407a6401-3ff3-47ed-86dc-17a275acc534": {
+      "ProjectGuid": "407a6401-3ff3-47ed-86dc-17a275acc534",
+      "DisplayName": "Bbrz.Util",
+      "ColorIndex": 1
+    },
+    "53857530-8847-49df-9888-654683df4a86": {
+      "ProjectGuid": "53857530-8847-49df-9888-654683df4a86",
+      "DisplayName": "TestPrj",
+      "ColorIndex": 2
+    },
+    "1c065575-9250-4606-9270-9b989a01aee2": {
+      "ProjectGuid": "1c065575-9250-4606-9270-9b989a01aee2",
+      "DisplayName": "WinDataSet",
+      "ColorIndex": 3
+    },
+    "f9fbc3f5-7097-4f08-9319-0173b8254201": {
+      "ProjectGuid": "f9fbc3f5-7097-4f08-9319-0173b8254201",
+      "DisplayName": "WinDbCountries",
+      "ColorIndex": 4
+    }
+  },
+  "NextColorIndex": 5
+}
