@@ -22,6 +22,17 @@ namespace DAL
       ta.Fill(ds.countries);
       ta.Connection.Close();
     }
+
+    public static void FillCountries(DsCodersBay ds, int? regionId)
+    {
+      if (ds == null || regionId == null)
+        return;
+      var ta = new DsCodersBayTableAdapters.countriesTableAdapter();
+      ta.FillByRegionId(ds.countries, regionId.Value);
+      ta.Connection.Close();
+    }
+
+
   }
 
 }

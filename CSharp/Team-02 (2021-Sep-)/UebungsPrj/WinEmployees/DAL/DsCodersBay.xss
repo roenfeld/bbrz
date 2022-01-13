@@ -7,7 +7,7 @@
 <DiagramLayout xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ex:showrelationlabel="True" ViewPortX="0" ViewPortY="0" xmlns:ex="urn:schemas-microsoft-com:xml-msdatasource-layout-extended" xmlns="urn:schemas-microsoft-com:xml-msdatasource-layout">
   <Shapes>
     <Shape ID="DesignTable:regions" ZOrder="3" X="100" Y="90" Height="150" Width="245" AdapterExpanded="true" DataTableExpanded="true" OldAdapterHeight="0" OldDataTableHeight="0" SplitterPosition="85" />
-    <Shape ID="DesignTable:countries" ZOrder="2" X="622" Y="206" Height="280" Width="260" AdapterExpanded="true" DataTableExpanded="true" OldAdapterHeight="0" OldDataTableHeight="0" SplitterPosition="111" />
+    <Shape ID="DesignTable:countries" ZOrder="2" X="622" Y="206" Height="280" Width="300" AdapterExpanded="true" DataTableExpanded="true" OldAdapterHeight="0" OldDataTableHeight="0" SplitterPosition="111" />
   </Shapes>
   <Connectors>
     <Connector ID="DesignRelation:FK__countries__regions" ZOrder="1" LineWidth="11">

@@ -10,7 +10,6 @@ namespace DAL_Test
     public void Regions()
     {
       var ds = new DAL.DsCodersBay();
-
       DAL.DsCodersBay.FillRegions(ds);
     }
 
