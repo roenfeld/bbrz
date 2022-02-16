@@ -16,6 +16,14 @@ namespace BBRZ.DAL
     }
 
 
+    public static void FillByRegion(DsCodersBay ds, int regionId)
+    {
+      var ta = new DsCodersBayTableAdapters.countriesTableAdapter();
+      ta.FillByRegionId(ds.countries, regionId);
+      ta.Connection.Close();
+    }
+
+
     public static void Update(DsCodersBay ds)
     {
       var ta = new DsCodersBayTableAdapters.countriesTableAdapter();

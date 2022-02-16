@@ -1,5 +1,0 @@
--- mysql\data
-LOAD DATA INFILE 'data/../Artikel.csv'
-INTO TABLE tdefartikel
-FIELDS TERMINATED BY ';' ENCLOSED BY ''
-LINES TERMINATED BY '\n';
