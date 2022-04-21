@@ -1,0 +1,26 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "5307d712-1c8b-47b8-8cae-f7b5e3a8aec6": {
+      "ProjectGuid": "5307d712-1c8b-47b8-8cae-f7b5e3a8aec6",
+      "DisplayName": "ConAdo",
+      "ColorIndex": 0
+    },
+    "8074f1dd-f652-4f71-9ed0-cfe7e44d1aca": {
+      "ProjectGuid": "8074f1dd-f652-4f71-9ed0-cfe7e44d1aca",
+      "DisplayName": "WinAdoTest",
+      "ColorIndex": 1
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Sonstige Dateien",
+      "ColorIndex": -1
+    },
+    "81d81f0f-e256-49b1-9e5c-db25a3c12331": {
+      "ProjectGuid": "81d81f0f-e256-49b1-9e5c-db25a3c12331",
+      "DisplayName": "WinAdoTest02",
+      "ColorIndex": 2
+    }
+  },
+  "NextColorIndex": 3
+}

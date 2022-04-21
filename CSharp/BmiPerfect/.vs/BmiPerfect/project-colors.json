@@ -1,0 +1,51 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "e8e3805c-50b3-4351-a393-bcecfebae6c9": {
+      "ProjectGuid": "e8e3805c-50b3-4351-a393-bcecfebae6c9",
+      "DisplayName": "BmiPerfect",
+      "ColorIndex": 0
+    },
+    "a5b12781-a1ee-4f96-98d8-9a2365ee491e": {
+      "ProjectGuid": "a5b12781-a1ee-4f96-98d8-9a2365ee491e",
+      "DisplayName": "BmiLib",
+      "ColorIndex": 1
+    },
+    "45332cda-5832-42be-8113-326276c0a913": {
+      "ProjectGuid": "45332cda-5832-42be-8113-326276c0a913",
+      "DisplayName": "BmiWPF",
+      "ColorIndex": 2
+    },
+    "bde1d144-7b12-4610-a57c-8a9a1298d363": {
+      "ProjectGuid": "bde1d144-7b12-4610-a57c-8a9a1298d363",
+      "DisplayName": "BmiRechnerV1",
+      "ColorIndex": 3
+    },
+    "fb207c9b-71d6-44e6-af7a-c5f47dfaf9e0": {
+      "ProjectGuid": "fb207c9b-71d6-44e6-af7a-c5f47dfaf9e0",
+      "DisplayName": "ToDoListe",
+      "ColorIndex": 4
+    },
+    "e566743e-27a6-428a-9bb8-3c204712bc03": {
+      "ProjectGuid": "e566743e-27a6-428a-9bb8-3c204712bc03",
+      "DisplayName": "BmiRechnerV0",
+      "ColorIndex": 5
+    },
+    "479353b2-b5b4-4541-9e6b-91ae25fabf4a": {
+      "ProjectGuid": "479353b2-b5b4-4541-9e6b-91ae25fabf4a",
+      "DisplayName": "BmiRechnerV2",
+      "ColorIndex": 6
+    },
+    "936e2799-f1b7-4c5b-9605-71f952425907": {
+      "ProjectGuid": "936e2799-f1b7-4c5b-9605-71f952425907",
+      "DisplayName": "Roenfeld.Utils",
+      "ColorIndex": 7
+    },
+    "9f7620a0-3f32-4216-96d3-5813f80f3b7f": {
+      "ProjectGuid": "9f7620a0-3f32-4216-96d3-5813f80f3b7f",
+      "DisplayName": "UnitTestProject1",
+      "ColorIndex": 8
+    }
+  },
+  "NextColorIndex": 9
+}

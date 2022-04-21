@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "0d600bac-ad66-4842-890a-e424477fda00": {
+      "ProjectGuid": "0d600bac-ad66-4842-890a-e424477fda00",
+      "DisplayName": "WinSerPerson",
+      "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Sonstige Dateien",
+      "ColorIndex": -1
+    },
+    "dfb40f07-7d11-470d-b0c6-fbf14534b654": {
+      "ProjectGuid": "dfb40f07-7d11-470d-b0c6-fbf14534b654",
+      "DisplayName": "WinDataSet",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}

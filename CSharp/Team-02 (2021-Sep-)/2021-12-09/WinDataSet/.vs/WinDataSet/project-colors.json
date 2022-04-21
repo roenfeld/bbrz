@@ -1,0 +1,26 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "1c065575-9250-4606-9270-9b989a01aee2": {
+      "ProjectGuid": "1c065575-9250-4606-9270-9b989a01aee2",
+      "DisplayName": "WinDataSet",
+      "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Sonstige Dateien",
+      "ColorIndex": -1
+    },
+    "f9fbc3f5-7097-4f08-9319-0173b8254201": {
+      "ProjectGuid": "f9fbc3f5-7097-4f08-9319-0173b8254201",
+      "DisplayName": "WinDbCountries",
+      "ColorIndex": 1
+    },
+    "c5944859-c503-4783-9c30-68b85775161c": {
+      "ProjectGuid": "c5944859-c503-4783-9c30-68b85775161c",
+      "DisplayName": "WinFiles",
+      "ColorIndex": 2
+    }
+  },
+  "NextColorIndex": 3
+}

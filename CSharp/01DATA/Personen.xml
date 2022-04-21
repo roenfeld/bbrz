@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfPerson xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Person>
+    <FirstName>Max</FirstName>
+    <LastName>Greinix</LastName>
+    <BirthDay>1993-12-18T00:00:00</BirthDay>
+    <HeightCm>0</HeightCm>
+  </Person>
+  <Person>
+    <FirstName>Dave</FirstName>
+    <LastName>Jursitzky</LastName>
+    <BirthDay>1997-02-02T00:00:00</BirthDay>
+    <HeightCm>188.1</HeightCm>
+  </Person>
+  <Person>
+    <FirstName>Lucy</FirstName>
+    <LastName>Trattner</LastName>
+    <BirthDay>1992-07-31T00:00:00</BirthDay>
+    <HeightCm>169.3</HeightCm>
+    <Password>strenggeheim</Password>
+  </Person>
+</ArrayOfPerson>

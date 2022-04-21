@@ -1,0 +1,26 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "1f703167-fe83-4445-ad08-5c0d3ca312ee": {
+      "ProjectGuid": "1f703167-fe83-4445-ad08-5c0d3ca312ee",
+      "DisplayName": "BBRZ.DAL",
+      "ColorIndex": 0
+    },
+    "ebcc8a48-c9b7-4955-8d27-9f758d1b6c7c": {
+      "ProjectGuid": "ebcc8a48-c9b7-4955-8d27-9f758d1b6c7c",
+      "DisplayName": "UnitTestDAL",
+      "ColorIndex": 1
+    },
+    "dbc4c2b3-682f-4e84-aacf-0ee1dc5b3344": {
+      "ProjectGuid": "dbc4c2b3-682f-4e84-aacf-0ee1dc5b3344",
+      "DisplayName": "WinCodersBayDAL",
+      "ColorIndex": 2
+    },
+    "c8e0c884-bc39-40d7-92cf-29136ce65d77": {
+      "ProjectGuid": "c8e0c884-bc39-40d7-92cf-29136ce65d77",
+      "DisplayName": "WpfApp",
+      "ColorIndex": 3
+    }
+  },
+  "NextColorIndex": 4
+}
